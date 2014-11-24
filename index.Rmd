@@ -13,15 +13,10 @@ github:
   user: johnDorian
   repo: work_package_3
 hitheme: solarized_light
---- .segue .quote .dark
+--- 
 
 <q> Slidify is a tool that makes it easy to create, customize and publish, reproducible HTML5 slide decks using R Markdown.</q>
 
-<style>
-.dark q {
-  color: white;
-}
-</style>
 
 ---
 

@@ -1,0 +1,23 @@
+.title-slide {
+  background-image: lake_sample.jpg;
+}
+
+.title-slide hgroup h1 {
+  font-size: 65px;
+  line-height: 1.4;
+  letter-spacing: -3px;
+  color: #515146;
+}
+/* line 934, ../scss/default.scss */
+.title-slide hgroup h2 {
+  font-size: 34px;
+  color: #a9a9a7;
+  font-weight: inherit;
+}
+/* line 940, ../scss/default.scss */
+.title-slide hgroup p {
+  font-size: 20px;
+  color: #797979;
+  line-height: 1.3;
+  margin-top: 2em;
+}
