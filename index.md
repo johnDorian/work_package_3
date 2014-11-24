@@ -9,6 +9,9 @@ hitheme     : tomorrow      #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
+github:
+  user: johnDorian
+  repo: work_package_3
 ---
 
 ## Read-And-Delete
