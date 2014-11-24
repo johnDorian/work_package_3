@@ -1,23 +1,26 @@
 .title-slide {
-  background-image: lake_sample.jpg;
+  background-image: url(https://github.com/johnDorian/work_package_3/raw/gh-pages/assets/img/lake_sample.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .title-slide hgroup h1 {
   font-size: 65px;
   line-height: 1.4;
   letter-spacing: -3px;
-  color: #515146;
+  color: #FFFFFF;
 }
 /* line 934, ../scss/default.scss */
 .title-slide hgroup h2 {
   font-size: 34px;
-  color: #a9a9a7;
+  color: #FFFFFF;
   font-weight: inherit;
 }
 /* line 940, ../scss/default.scss */
 .title-slide hgroup p {
   font-size: 20px;
-  color: #797979;
+  color: #FFFFFF;
   line-height: 1.3;
   margin-top: 2em;
 }
