@@ -1,5 +1,5 @@
 ---
-title       : Work Package 3 
+title       : Work Packages 3 and 4
 subtitle    : Isotope data
 author      : Jason Lessels
 job         : University of Aberdeen
@@ -15,46 +15,67 @@ github:
 hitheme: solarized_light
 --- 
 
-## Aquatic transport: Tracing the terrestrial–aquatic C flow in arctic hydrological systems
+## 
+## Using isotopic and geochemical tracers to identify sources of runoff
 
-<b>Tasks I:</b>
-> - <span class = 'red'>Use isotopic and geochemical tracers to identify sources of runoff</span>, their temporal dynamics and landscape controls at multiple spatial scales (precipitation collectors, grab sampling of streamwater and synoptic sampling)
- 
-> - <span class = 'red'>Identify differences in source / age of aquatic C (POC, DOC, CO2 and CH4) using $\delta$13C and 14C</span> in areas with and without permafrost,  linking these differences to changes in <span class = 'red'>hydrological functioning and the soil C pool</span> (passive/composite and instantaneous isotopic sampling methods for the determination of $\delta$13C and 14C)
+<b>Aims and objectives</b>
 
-> - To develop empirically-informed conceptual understanding of arctic hydrological systems to address hypotheses / questions in <b>WPs 1-2</b>; 
+1. Identify the main sources of water at the catchment scale.
+2. Use this information to improve the understanding of the sources and fate of C through the catchment.
 
-> - <span class = 'red'>To develop a tracer-based empirical understanding</span> of catchment function to <span class = 'red'>inform and constrain low-parameter hydrological models</span> in <b>WP4</b>. 
+<b>How we will use the data</b>
 
----
-## Aquatic transport: Tracing the terrestrial–aquatic C flow in arctic hydrological systems (cont.)
-
-
-```r
-summary(cars$dist)
-```
-
-```
-##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-##    2.00   26.00   36.00   42.98   56.00  120.00
-```
-
-```r
-summary(cars$speed)
-```
-
-```
-##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-##     4.0    12.0    15.0    15.4    19.0    25.0
-```
+- <span class='red'>Precipitation samples</span>: Identify the isotopic signature of precipitation inputs
+- <span class='red'>Soil water</span>: Identify isotopic signature to monitor mixing of soil water and precipitation and the travel time from soil to the stream.
+- <span class='red'>Stream sampling (catchment outlet)</span>: Detect seasonal trends and allow for the calibration of estimated transit times.
 
 ---
+## How to use isotopes to trace water ##
+<b> plot of GMWL explanation</b>
+
 ---
-## Plot test
+## Data summary ##
+
+Data           | Frequency | Objective
+---------------|-----------|----------
+Synoptic sampling | multiple times throughout 13 and 14 | Examine small scales controls
+Extra synoptic sites | 2 visits (2014) |  Incorporated into a network geospatial model
+Stream discharge  | (15 min - 2014) | Estimating loads and hydrological modelling
+Soil water | multiple times at 2 depths (4 locations) during 2014 | Used in estimating transit times and identifying production and sources of DOC
+Rainfall collection | throughout 2013 and 2014 | Used as input to transit time modelling
+CDOM | (2 weeks during 2014) | Continuous estimates of DOC 
 
 
-```r
-plot(1)
-```
+---
+## Time series plot##
+<b> Time series plot of all the data</b>
 
-![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2-1.png) 
+---
+## Isotope overview ##
+<b> plot of isotopes with colours and split into years</b>
+
+---
+## Spatial isotopes (lakes etc) ##
+<b> plot of isotopes across the lakes</b>
+
+---
+## Soil water Isotopes##
+<b> Soil water isotope plots with aspect diffs</b>
+
+---
+## CDOM data ##
+<b> plot of CDOM data</b>
+
+---
+## Where to from here ##
+Outline what wil be done from this point.
+EGU etc.
+
+
+
+
+
+
+
+
+
