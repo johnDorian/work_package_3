@@ -29,7 +29,15 @@ hitheme: solarized_light
 ---
 ## Aquatic transport: Tracing the terrestrial–aquatic C flow in arctic hydrological systems (cont.)
 
-> The fate of DOC within the aquatic system and potential for further downstream CO2/CH4 release will be quantified using two approaches; (1) in situ DOC field degradation experiments, where reactor vessels containing ‘source area DOC’ will be deployed at contrasting points in the river system and changes in headspace CO2 and CH4 concentration measured over time, and (2) synoptic downstream C flux measurements of C species using a mass balance approach in streams of increasing size to show net loss/gain of C (using Cl as a natural, conservative tracer to control the effect of net losses/gain of water from the aquatic system18).
-
+```{r}
+summary(cars$dist)
+summary(cars$speed)
+```
 
 ---
+---
+## Plot test
+
+```{r}
+plot(1)
+```
