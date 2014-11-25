@@ -15,7 +15,22 @@ github:
 hitheme: solarized_light
 --- 
 
-## 
+<!-- Limit image width and height -->
+<style type='text/css'>
+img {
+    max-height: 560px;
+    max-width: 964px;
+}
+</style>
+
+<!-- Center image on slide -->
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+<script type='text/javascript'>
+$(function() {
+    $("p:has(img)").addClass('centered');
+});
+</script>
+
 ## Using isotopic and geochemical tracers to identify sources of runoff
 
 <b>Aims and objectives</b>
@@ -48,6 +63,11 @@ CDOM | (2 weeks during 2014) | Continuous estimates of DOC
 
 ---
 ## Time series plot##
+
+```
+## [1] "encoding"  "inputFile"
+```
+
 <b> Time series plot of all the data</b>
 
 ---
@@ -70,6 +90,62 @@ CDOM | (2 weeks during 2014) | Continuous estimates of DOC
 ## Where to from here ##
 Outline what wil be done from this point.
 EGU etc.
+
+---
+## Work Package 4 ##
+Something about intergrating everything
+
+--- 
+## Aims and objectives ##
+
+---
+
+
+## ECOSSE model Outline ##
+
+---
+
+## Wolf Creek overview ##
+
+---
+##  Model outline ##
+
+---
+## Observed data from Wolf Creek ##
+
+![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2-1.png) 
+
+---
+
+##  Stream discharge simulations ##
+
+![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3-1.png) 
+
+---
+
+##  DOC simulations ##
+
+![plot of chunk unnamed-chunk-4](assets/fig/unnamed-chunk-4-1.png) 
+
+---
+
+##  An example ##
+
+![plot of chunk unnamed-chunk-5](assets/fig/unnamed-chunk-5-1.png) 
+
+---
+
+##  An example ##
+
+![plot of chunk unnamed-chunk-6](assets/fig/unnamed-chunk-6-1.png) 
+
+---
+
+##  An example ##
+
+![plot of chunk unnamed-chunk-7](assets/fig/unnamed-chunk-7-1.png) 
+
+---
 
 
 

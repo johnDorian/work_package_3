@@ -15,7 +15,22 @@ github:
 hitheme: solarized_light
 --- 
 
-## 
+<!-- Limit image width and height -->
+<style type='text/css'>
+img {
+    max-height: 560px;
+    max-width: 964px;
+}
+</style>
+
+<!-- Center image on slide -->
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+<script type='text/javascript'>
+$(function() {
+    $("p:has(img)").addClass('centered');
+});
+</script>
+
 ## Using isotopic and geochemical tracers to identify sources of runoff
 
 <b>Aims and objectives</b>
@@ -48,6 +63,13 @@ CDOM | (2 weeks during 2014) | Continuous estimates of DOC
 
 ---
 ## Time series plot##
+```{r, echo=FALSE, }
+library(ggplot2)
+library(gridExtra)
+
+ls()
+```
+
 <b> Time series plot of all the data</b>
 
 ---
@@ -70,6 +92,82 @@ CDOM | (2 weeks during 2014) | Continuous estimates of DOC
 ## Where to from here ##
 Outline what wil be done from this point.
 EGU etc.
+
+---
+## Work Package 4 ##
+Something about intergrating everything
+
+--- 
+## Aims and objectives ##
+
+---
+
+
+## ECOSSE model Outline ##
+
+---
+
+## Wolf Creek overview ##
+
+---
+##  Model outline ##
+
+---
+## Observed data from Wolf Creek ##
+
+```{r, echo = FALSE, warning=FALSE,message=FALSE, fig.width=12, fig.height=5}
+load("plots_for_talk.rdata")
+
+obs_plot
+
+```
+
+---
+
+##  Stream discharge simulations ##
+
+```{r,echo = FALSE, warning=FALSE, message=FALSE, fig.width=12, fig.height=5}
+load("plots_for_talk.rdata")
+q_val_plot
+```
+
+---
+
+##  DOC simulations ##
+
+```{r, echo = FALSE, warning=FALSE,message=FALSE, fig.width=12, fig.height=5}
+load("plots_for_talk.rdata")
+doc_val_plot
+```
+
+---
+
+##  An example ##
+
+```{r ,echo = FALSE, warning=FALSE,message=FALSE, fig.width=14, fig.height=5}
+load("plots_for_talk.rdata")
+year_2008_plot
+```
+
+---
+
+##  An example ##
+
+```{r, echo = FALSE, warning=FALSE,message=FALSE, fig.width=8, fig.height=8}
+load("plots_for_talk.rdata")
+sw_plot
+```
+
+---
+
+##  An example ##
+
+```{r, echo = FALSE, warning=FALSE,message=FALSE, fig.width=8, fig.height=8}
+load("plots_for_talk.rdata")
+obs_v_pred
+```
+
+---
 
 
 
