@@ -182,7 +182,7 @@ Presentation at EGU 2013
 
 ##  Model outline ##
 
-![alt text](https://github.com/johnDorian/work_package_3/raw/gh-pages/fig2.tiff)
+![alt text](http://github.com/johnDorian/work_package_3/raw/gh-pages/fig2.tiff)
 
 --- 
 
