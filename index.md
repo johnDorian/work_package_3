@@ -1,6 +1,6 @@
 ---
 title       : Work Package 3
-subtitle    : Isotope data
+subtitle    : Stable water isotopes
 author      : Jason Lessels
 job         : University of Aberdeen
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
@@ -51,9 +51,9 @@ Data           | Frequency | Objective
 ---------------|-----------|----------
 Synoptic sampling | multiple times throughout 13 and 14 | Examine small scales controls
 Extra synoptic sites | 2 visits (2014) |  Incorporated into a network geospatial model
-Stream discharge  | (15 min - 2014) | Estimating loads and hydrological modelling
+Stream discharge  | (15 min - 2014) | Estimating loads and hydrological modeling
 Soil water | multiple times at 2 depths (4 locations) during 2014 | Used in estimating transit times and identifying production and sources of DOC
-Rainfall collection | throughout 2013 and 2014 | Used as input to transit time modelling
+Rainfall collection | throughout 2013 and 2014 | Used as input to transit time modeling
 CDOM | (2 weeks during 2014) | Continuous estimates of DOC 
 
 
@@ -89,7 +89,7 @@ CDOM | (2 weeks during 2014) | Continuous estimates of DOC
 ## CDOM data ##
 ![plot of chunk unnamed-chunk-5](assets/fig/unnamed-chunk-5-1.png) 
 
-> CDOM is a good suggorate for DOC.
+> CDOM is a good surrogate for DOC.
 > There is large daily diurnal variation.
 
 > The rainfall event had a dilution effect on DOC. 
@@ -149,7 +149,7 @@ Presentation at EGU 2013
 <br></br>
 1. Develop a parsimonious hydrological model for an Arctic catchment using hydrological tracers to improve model structure. 
 
-2. Use isotope data to estimate transit times in the catchmemt. 
+2. Use isotope data to estimate transit times in the catchment. 
 
 3. Improved hydrology and freeze/thaw routines for ECOSSE and improved DOC estimates for parsimonious hydrological model. 
 
@@ -175,14 +175,14 @@ Presentation at EGU 2013
 - Based on the DOC components of the ECOSSE model
 - Simplified DOC production and loss functions using 
   - a Q10 relationship for temperature, and 
-  - a soil mositure modifying term.
+  - a soil moisture modifying term.
 
 ---
 
 
 ##  Model outline ##
 
-![alt text](fig2.tiff)
+![alt text](https://github.com/johnDorian/work_package_3/raw/gh-pages/fig2.tiff)
 
 --- 
 
@@ -222,7 +222,7 @@ Presentation at EGU 2013
 
 ![plot of chunk unnamed-chunk-10](assets/fig/unnamed-chunk-10-1.png) 
 
-> Simulations closely resemble observed trends of both DOC ans stream discharge.
+> Simulations closely resemble observed trends of both DOC and stream discharge.
 
 
 
@@ -243,11 +243,11 @@ Presentation at EGU 2013
 
 ---
 
-## Transit time modelling ##
+## Transit time modeling ##
 
 ![plot of chunk unnamed-chunk-13](assets/fig/unnamed-chunk-13-1.png) 
 
-> Transit times are based on the __smoothing__ of the isotope signal by the catchment
+> Transit times are based on the _smoothing_ of the isotope signal by the catchment
 
 ---
 
@@ -255,7 +255,7 @@ Presentation at EGU 2013
 
 <b> Interesting findings so far</b>
 
-> Modelling results so far indicate that conceptual models will work in paermafrost environments
+> modeling results so far indicate that conceptual models will work in permafrost environments
 
 > Isotopes should be able to be used to estimate transit times, which will improve hydrological models
 
